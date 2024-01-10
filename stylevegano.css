@@ -1,0 +1,72 @@
+/* Estilo pag. index vegano */
+
+.titulo{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 236, 132);
+    
+}
+
+.subtitulo{
+    color: green;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 236, 132);
+    
+}
+
+.indice{
+    padding: 30px;  
+}
+
+.container{
+ display: flex;
+ flex-flow: row;
+ justify-content: center; 
+ align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#menu li a:hover {
+    color: green;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-450{
+    width: 450px;
+    height: 450px;
+}
+
+.background{
+    background-color: rgb(202, 236, 132);
+    height: 200px;
+}
+
+.backgroundend{
+    background-color: rgb(202, 236, 132);
+    height: 50px;
+}
+
+
+
+/* Estlio pag. stylevegano.css */ 

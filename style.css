@@ -1,0 +1,37 @@
+
+.titulo{
+    color: red;
+    font-size: 30px;
+}
+
+.descricao{
+    color: blue;
+    font-size: 20px;
+}
+
+.preco{
+    color: purple;
+    font-size: 20px;
+}
+
+#tituloGeral{
+    color: green;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.conjuntodecards{
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: yellowgreen;
+    height: 250px;
+}

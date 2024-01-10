@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
     <title>Veganos Com Fome</title>
+    <link rel="stylesheet" type="text/css" href="./stylevegano.css">
 </head>
 
-<body>
-    <header>
-        <ul>
+<body background-color: rgb(202, 236, 132);>
+    
+    <header class="background">
+        <ul id="menu">
             <li>
                 <a href="veganocomfome.html"> Home</a> </a>
             </li>
@@ -17,39 +19,65 @@
                 <a href="contato.html"> Contatos</a>
 
         </ul>
-        <h1>Veganos com Fome</h1>
-        <h2>O blog de receitas veganas práticas para quem tá faminto.</h2>
+        <h1 class="titulo">Veganos com Fome</h1>
+        <h2 class="subtitulo">O blog de receitas veganas práticas para quem tá faminto.</h2>
     </header>
 
     <main>
         <section>
-            <h3>ÍNDICE: </h3>
+
+            <div class="indice">
+            <h3 style="color: green;">ÍNDICE: </h3>
             <ul>
-                <li>CAFÉ DA MANHÃ</li>
-                <li>ALMOÇO</li>
-                <li>JANTA</li>
-                <li>LARICA</li>
+                <li style="color: brown;">CAFÉ DA MANHÃ</li>
+                <li style="color: brown;">ALMOÇO</li>
+                <li style="color: brown;">JANTA</li>
+                <li style="color: brown;">LARICA</li>
             </ul>
+            </div>
 
         </section>
     </main>
+    
+    <h2 class="p-30" style="color: green;">CAFÉ DA MANHÃ:</h2>
 
-    <h2>CAFÉ DA MANHÃ:</h2>
-    <h3>Pudim de Chia</h3>
-    <p>O Pudim de Chia é uma excelente opção para a primeira refeição do dia. Versátil, a receita pode ser feita com
-        aveia ou não, diferentes tipos leites vegetais e "toppings".</p>
-    <br>
+    <div class="container">
+        <div class="p-30">
+            <h3 style="color:brown; font-size: 25px;">Pudim de Chia</h3>
+            <p style="font-size: 20px;">O Pudim de Chia é uma excelente opção para a primeira refeição do dia. Versátil, a receita pode ser feita
+                com
+                aveia ou não, diferentes tipos leites vegetais e "toppings".
+                Devido à alta concentração de fibras, a chia promove saciedade por mais tempo e facilita a digestão – e
+                um intestino saudável é sinal de ótima imunidade! Segundo registros, os maias e os astecas utilizavam a
+                chia como alimento para aumentar a resistência física. Antigamente, ela também estava atrelada a rituais
+                sagrados e servia como oferenda aos deuses daquelas civilizações.
+                Como a cerimônia era considerada pagã, seu cultivo foi extinto por séculos e só foi retomado no início
+                da década de 1990 por um grupo de pesquisadores argentinos. Desde então, os cientistas têm se voltado
+                para pesquisas com o grão.
+            </p>
+            <br>
+        </div>
+
+        <div>
+            <img class="br-50 wh-450 p-30" src="./assets/img/chia.jpg" alt="Pudim de Chia">
+        </div>
+
+
+    </div>
+
+    <div class="container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CrovwAjPK64?si=XxnxIU_fENKY4WgU"
         title="Pudim de Chia" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
     </iframe>
+    </div>
 
-    <footer>
+    <footer class="backgroundend container">
 
-        <img src="assets/img/veganplantbased.jpg" alt="Imagem do selo Vegan Plant Based na cor verde" width="50px">
+        <img src="assets/img/vegan-icon.png" alt="Imagem do selo Vegan Plant Based na cor verde" width="50px">
         <a href="https://petaapprovedvegan.peta.org/get-certified/?utm_source=PETA::Google&utm_medium=Ad&utm_campaign=1022::gen::PETA::Google::SEA-PAV-Grant::::searchad&gad_source=1&gclid=CjwKCAiA1-6sBhAoEiwArqlGPha2qrrJjxBZ2voTxWZhEPs31LVJwFG8lPUloTBWOGJJBNLZl0veqhoClMoQAvD_BwE"
-            target="_blank">Link para o site do PETA.</a>
+            target="_blank">PETA.</a>
     </footer>
 
 </body>

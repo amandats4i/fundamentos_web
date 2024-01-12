@@ -1,72 +1,139 @@
 /* Estilo pag. index vegano */
 
-.titulo{
+body {
+    background-color: #e9fac8;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.titulo {
     color: brown;
     display: flex;
     justify-content: center;
-    background-color: rgb(202, 236, 132);
-    
+    background-color: #e9fac8;
+
 }
 
-.subtitulo{
+.subtitulo {
     color: green;
     display: flex;
     justify-content: center;
-    background-color: rgb(202, 236, 132);
-    
+    background-color: #e9fac8;
+
 }
 
-.indice{
-    padding: 30px;  
+
+.indice ul {
+    color: rgb(12, 74, 0);
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    background-color: rgb(170, 207, 154);
+    border-radius: 50px;
+
 }
 
-.container{
- display: flex;
- flex-flow: row;
- justify-content: center; 
- align-items: center;
+
+.indice li:hover {
+    color: rgb(110, 34, 10);
+    transition: 0.6s;
+    font-weight: bold;
 }
 
-#menu li{
+
+/*Configurações do post*/
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#menu li {
     display: inline;
-    padding: 15px;
-    
+    padding: 30px;
 }
 
 #menu li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 48, 0);
     font-size: 20px;
-    
 }
 
 #menu li a:hover {
+    color: rgb(114, 40, 0);
+    transition: 0.3s;
+}
+
+.menu_container {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-image: url("./assets/img/a111d6a4-96f2-426f-920b-fa6693295769.png");
+    filter: opacity(0.7);
+    border-radius: 50px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.p-30 {
+    padding: 30px;
     color: green;
 }
 
-.p-30{
-    padding: 30px;
+.p-30 h3 {
+    color: brown;
+    font-size: 25px
 }
 
-.br-50{
+.p-30 p {
+    font-size: 20px;
+    color: black;
+}
+
+.br-50 {
     border-radius: 50%;
 }
 
-.wh-450{
-    width: 450px;
-    height: 450px;
+.wh-450 {
+    width: 500px;
+    height: 500px;
 }
 
-.background{
+.background {
     background-color: rgb(202, 236, 132);
     height: 200px;
 }
 
-.backgroundend{
-    background-color: rgb(202, 236, 132);
-    height: 50px;
+.backgroundend {
+
+    height: 60px;
 }
 
 
 
-/* Estlio pag. stylevegano.css */ 
+/* Estilo pag. contato.css */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    color: rgb(165, 97, 42);
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.form textarea{
+    height: 50px;
+    width: 99%;
+    padding: 5px;
+
+}
